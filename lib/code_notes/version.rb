@@ -1,0 +1,3 @@
+module CodeNotes
+  VERSION = "0.0.1"
+end
