@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+require 'code_notes'
+require 'code_notes/source_annotation_extractor'
+
+annotation_pattern = ARGV[0] || CodeNotes::SourceAnnotationExtractor.default_tags
+CodeNotes::SourceAnnotationExtractor.enumerate annotation_pattern, tag: true

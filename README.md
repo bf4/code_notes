@@ -25,12 +25,17 @@ Or install it yourself as:
 ## Usage
 
 ```bash
-code_notes
+code_notes [optional: quoted regexp pattern to match annotattions. default: "OPTIMIZE|FIXME|TODO"]
 ```
 
 ```rake
 rake notes
+# the same as
+ANNOTATION="OPTIMIZE|FIXME|TODO" rake notes:custom
 ```
+
+By default it searches in `app config db lib test spec features`.
+More directories can be set by the comma-separated environmental variable `SOURCE_ANNOTATION_DIRECTORIES`
 
 ## Contributing
 
