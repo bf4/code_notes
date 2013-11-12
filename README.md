@@ -45,3 +45,7 @@ More directories can be set by the comma-separated environmental variable `SOURC
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/bf4/code_notes/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
