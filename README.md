@@ -1,4 +1,4 @@
-# CodeNotes [![Inline docs](http://inch-pages.github.io/github/bf4/code_notes.png)](http://inch-pages.github.io/github/bf4/code_notes)
+# CodeNotes [![Inline docs](http://inch-ci.org/github/bf4/code_notes.png)](http://inch-ci.org/github/bf4/code_notes)
 
 Extracting from Rails the rake notes, source annotation extaction task
 
